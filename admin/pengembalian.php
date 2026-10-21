@@ -88,7 +88,6 @@ include 'header.php';
                             <th>Tanggal Pinjam</th>
                             <th>Rencana Kembali</th>
                             <th>Status Waktu</th>
-                            <th>Opsi</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -112,9 +111,6 @@ include 'header.php';
                                 <?php else: ?>
                                     <span class="badge bg-success">Belum Terlambat</span>
                                 <?php endif; ?>
-                            </td>
-                            <td>
-                                <span class="text-secondary">Hanya dapat dilihat</span>
                             </td>
                         </tr>
                     <?php

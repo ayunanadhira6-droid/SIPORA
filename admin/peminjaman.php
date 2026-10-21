@@ -151,10 +151,6 @@ include 'header.php';
                                 <strong>Catatan:</strong>
                                 <?= htmlspecialchars($d['catatan'] ?? '-'); ?>
                             </td>
-
-                            <td>
-                                <span class="text-secondary">Hanya dapat dilihat</span>
-                            </td>
                         </tr>
                     <?php
                         endwhile;
